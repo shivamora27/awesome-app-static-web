@@ -23,9 +23,9 @@ spec:
               containerPort: 80
           env:
             - name: TITLE
-              value: "StackBox WMS"
+              value: "StackBox DC"
             - name: PRODUCT_NAME
-              value: "StackBox WMS"
+              value: "StackBox DC"
             - name: CATCHY_PHRASE
               value: " "
 ---
