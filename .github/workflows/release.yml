@@ -29,7 +29,7 @@ jobs:
         run: |
           git clone https://github.com/shivamora27/awesome-app-static-web.git
       - name: Generate semantic-release configs
-        working-directory: ./gitmoji-semver
+        working-directory: ./awesome-app-static-web
         run: |
           make scaffold F=../.semver.yml O=..
       - name: Release
