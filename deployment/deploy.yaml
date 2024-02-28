@@ -27,7 +27,8 @@ spec:
             - name: PRODUCT_NAME
               value: "StackBox DC"
             - name: CATCHY_PHRASE
-              value: " "
+              value: ""
+              
 ---
 apiVersion: v1
 kind: Service
